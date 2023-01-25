@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'PT Sans', 'Comic Sans MS', sans-serif;
+    background-color: #f5e6ea;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 50px;
+    text-shadow: 2px 2px #ffb6c1;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #ff69b4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px #ffb6c1;
+}
+
+label {
+    width: 100px;
+    text-align: right;
+    margin-right: 10px;
+    font-size: 20px;
+    color: #f5e6ea;
+}
+
+input {
+    width: 200px;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f5e6ea;
+    box-shadow: 2px 2px #ffb6c1;
+}
+
+button {
+    margin-left: 110px;
+    padding: 10px 20px;
+    background-color: #ffa07a;
+    color: #f5e6ea;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 2px 2px #ffb6c1;
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 80%;
+    background-color: #f5e6ea;
+    box-shadow: 2px 2px #ffb6c1;
+    border-radius: 10px;
+}
+
+th, td {
+    border: 1px solid #ff69b4;
+    padding: 8px;
+    text-align: left;
+    font-size: 20px;
+}
+
+th {
+    background-color: #ff69b4;
+    color: #f5e6ea;
+}
+
+tr:nth-child(even) {
+    background-color: #ffd1dc;
+}
+
+/*
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+label {
+    width: 100px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+input {
+    width: 200px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+button {
+    margin-left: 110px;
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}*/
